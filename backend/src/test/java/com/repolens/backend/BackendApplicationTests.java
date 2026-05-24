@@ -1,4 +1,4 @@
-package com.navneet.backend;
+package com.repolens.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
