@@ -3,6 +3,8 @@ package com.repolens.backend.service;
 import com.repolens.backend.dto.RepoRequestDTO;
 import com.repolens.backend.dto.RepoResponseDTO;
 import com.repolens.backend.dto.RepoScanResultDTO;
+import com.repolens.backend.entity.RepoAnalysis;
+import com.repolens.backend.repository.RepoAnalysisRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -14,6 +16,7 @@ public class RepoAnalysisService {
 
     private final GitCloneService gitCloneService;
     private final FileScannerService fileScannerService;
+    private final RepoAnalysisRepository repoAnalysisRepository;
 
     public RepoResponseDTO analyzeRepository(RepoRequestDTO request) {
 
@@ -38,9 +41,19 @@ public class RepoAnalysisService {
         response.setFolders(scan.getFolders());
         response.setLanguages(scan.getLanguages());
 
-        // 5) optionally persist analysis
-        // repoAnalysisRepository.save(entityFrom(response));
+         repoAnalysisRepository.save(entityFrom(response));
 
         return response;
+    }
+
+    private RepoAnalysis entityFrom(RepoResponseDTO response) {
+        RepoAnalysis entity = new RepoAnalysis();
+        entity.setProjectName(response.getProjectName());
+        entity.setRepoUrl(response.getRepoUrl());
+        entity.setTotalFiles(response.getTotalFiles());
+        entity.setTotalFolders(response.getTotalFolders());
+        entity.setFolders(response.getFolders());
+        entity.setLanguages(response.getLanguages());
+        return entity;
     }
 }
