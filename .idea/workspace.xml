@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a9b80c7-b752-4c06-9e03-12fe1264275c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/repolens/backend/controller/RepoAnalysisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/repolens/backend/controller/RepoAnalysisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/repolens/backend/dto/RepoRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/repolens/backend/dto/RepoRequestDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/repolens/backend/dto/RepoResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/repolens/backend/dto/RepoResponseDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/repolens/backend/entity/RepoAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/repolens/backend/entity/RepoAnalysis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/repolens/backend/service/RepoAnalysisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/repolens/backend/service/RepoAnalysisService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +22,7 @@
   <component name="CopilotChats">
     <option name="panelChat">
       <chat>
-        <option name="activeSessionId" value="89261cc5-b8a3-42fa-82dd-915bf9d2ada9" />
+        <option name="activeSessionId" value="ee802d42-64a2-4092-8b80-5ae419a085f9" />
         <option name="sessions">
           <session>
             <option name="chatType" value="PANEL" />
@@ -41,6 +45,14 @@
             <option name="chatType" value="PANEL" />
             <option name="id" value="89261cc5-b8a3-42fa-82dd-915bf9d2ada9" />
             <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="ee802d42-64a2-4092-8b80-5ae419a085f9" />
+            <option name="modeId" value="Ask" />
             <option name="modelType" value="builtin_family" />
             <option name="modelValue" value="auto" />
             <option name="targetType" value="LOCAL" />
@@ -76,6 +88,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HttpClientEndpointsTabState">
+    <option name="cachedRequestData" value="&lt;CachedHttpClientTabRequests&gt;&#10;  &lt;entry key=&quot;43be82a9744d46f4943222a158e9bbda00f3ce1f&quot; value=&quot;###&amp;#10;POST http://localhost:8080/api/auth/register&amp;#10;Content-Type: application/json&amp;#10;&amp;#10;&amp;#10;{&amp;quot;name&amp;quot;:&amp;quot;Test&amp;quot;,&amp;#10;  &amp;quot;email&amp;quot;:&amp;quot;test@example.com&amp;quot;,&amp;#10;  &amp;quot;password&amp;quot;:&amp;quot;pass1234&amp;quot;}&quot; /&gt;&#10;  &lt;entry key=&quot;34299b6ca0dbe151f27919d4a54fea0d31d01b4b&quot; value=&quot;POST http://localhost:8080/api/auth/login&amp;#10;Content-Type: application/json&amp;#10;&amp;#10;{&amp;quot;email&amp;quot;:&amp;quot;test@example.com&amp;quot;,&amp;quot;password&amp;quot;:&amp;quot;pass1234&amp;quot;}&quot; /&gt;&#10;  &lt;entry key=&quot;9b739fb6fabc9868cbbc8e3ec78921bac7695fdc&quot; value=&quot;POST http://localhost:8080/repo-analysis/analyze&amp;#10;Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0QGV4YW1wbGUuY29tIiwiaWF0IjoxNzgwMjA2NzUwLCJleHAiOjE3ODAyMTAzNTB9.-Kz2jbcjnMpMeL04ABrTdTr0jx1Vw_So8glTIrVTwv8&amp;#10;Content-Type: application/json&amp;#10;&amp;#10;{&amp;#10;  &amp;quot;repoUrl&amp;quot;: &amp;quot;https://github.com/omnavneet/innersight&amp;quot;&amp;#10;}&quot; /&gt;&#10;&lt;/CachedHttpClientTabRequests&gt;" />
+  </component>
+  <component name="HttpClientOnboardingState"><![CDATA[{
+  "isOnboardingCommentShown": true
+}]]></component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/frontend/package.json" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4,
   &quot;fromUser&quot;: false
@@ -102,35 +126,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.BackendApplication (1).executor": "Run",
-    "Spring Boot.BackendApplication.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "navneet/repo-analysis",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Navneet/Desktop/Utility/react_dump/RepoLens",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.customization.CustomizationConfigurable",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BackendApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.BackendApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;navneet/repo-analysis&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Navneet/Desktop/Utility/react_dump/RepoLens&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.customization.CustomizationConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Navneet\Desktop\Utility\react_dump\RepoLens" />
@@ -176,7 +200,8 @@
       <workItem from="1779533256541" duration="1890000" />
       <workItem from="1779539417967" duration="1204000" />
       <workItem from="1779605162567" duration="3958000" />
-      <workItem from="1780156794357" duration="3568000" />
+      <workItem from="1780156794357" duration="4671000" />
+      <workItem from="1780203807389" duration="3428000" />
     </task>
     <servers />
   </component>

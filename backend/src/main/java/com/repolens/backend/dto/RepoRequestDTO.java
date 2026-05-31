@@ -1,13 +1,10 @@
 package com.repolens.backend.dto;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class RepoRequestDTO {
     private String repoUrl;
-
-    public String getRepoUrl() {
-        return repoUrl;
-    }
-
-    public void setRepoUrl(String repoUrl) {
-        this.repoUrl = repoUrl;
-    }
 }

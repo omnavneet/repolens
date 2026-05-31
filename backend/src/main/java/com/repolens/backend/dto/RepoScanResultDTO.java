@@ -7,10 +7,9 @@ import java.util.List;
 
 @Getter
 @Setter
-public class RepoResponseDTO {
+public class RepoScanResultDTO {
 
     private String projectName;
-    private String repoUrl;
     private int totalFiles;
     private int totalFolders;
     private List<String> folders;
